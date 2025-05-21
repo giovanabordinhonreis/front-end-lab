@@ -77,74 +77,43 @@ footer img{
 #familia-pelho:hover{
     transform: scale(1.1);
 }
+
 @media (max-width: 768px) {
     body {
-      width: 90%;
-      padding: 10px;
+        width: auto;
+        margin: 0 20px;
     }
-  
-    #centro-distribuicao,
-    #familia-pelho {
-      width: 100%;
-      float: none;
-      margin: 0 auto 20px auto;
+
+    h1 {
+        font-size: 1.8em;
+        padding: 8px;
     }
-  
+
+    h2 {
+        font-size: 1.4em;
+        margin-top: 20px;
+    }
+
     p {
-      padding: 0 20px;
+        padding: 0 15px;
+        text-indent: 15px;
+        text-align: left;
+        line-height: 1.5;
     }
-  
-    header img {
-      width: 100%;
-      max-width: 200px;
-      display: block;
-      margin: 0 auto;
-    }
-  
-    #rodape {
-      text-align: center;
-    }
-  
-    #rodape img {
-      display: block;
-      margin: 0 auto 10px auto;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    body {
-      width: 100%;
-      font-size: 14px;
-    }
-  
-    h1, h2 {
-      font-size: 1.5em;
-      text-align: center;
-    }
-  
+
     figure {
-      padding: 10px;
-      margin: 15px auto;
+        margin: 20px 0;
+        padding: 10px;
     }
-  
-    p {
-      padding: 0 10px;
-      text-indent: 10px;
-    }
-  
-    ul {
-      padding: 0 20px;
-    }
-  
-    #familia-pelho,
+
     #centro-distribuicao {
-      width: 100%;
-      float: none;
-      margin: 0 auto 15px auto;
+        width: 100%;
+        max-width: 550px;
     }
-  
-    header img {
-      width: 100%;
-      max-width: 150px;
+
+    #familia-pelho {
+        float: none;
+        margin: 20px auto;
+        display: block;
     }
-  }
+}
