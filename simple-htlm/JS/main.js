@@ -5,7 +5,6 @@ const linkExterno =
   //  alert("Você será redirecionado para um link externo.");
 //};
 
-
 linkExterno.addEventListener('click', (e) => {
     const option = 
             confirm("Você será redirecionado para um link externo.");

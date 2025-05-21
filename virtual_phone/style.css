@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to top, #4464AD, #A4B0F5);
+    min-height: 100vh;
+}
+
+input {
+    border: none;
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    font-family: inherit;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5em;
+    color: #1A4BBF;
+}
+
+.teclado {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #A4B0F5;
+    margin-top: 20px;
+}
+
+input[type=button] {
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 50px;
+    width: 50px;
+}
+
+input[type=button]:hover{
+    font-weight: bold;
+    box-shadow: 0 4px 8px 0 #1A4BBF;
+}
+
+input[type=tel] {
+    background-color: #A4B0F5;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    padding: 10px;
+    text-align: center;
+    width: 230px;
+}
