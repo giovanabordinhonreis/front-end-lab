@@ -78,42 +78,56 @@ footer img{
     transform: scale(1.1);
 }
 
-@media (max-width: 768px) {
-    body {
-        width: auto;
-        margin: 0 20px;
-    }
+@media (max-width: 480px){
+  :root {
+      font-size: 14px;
+  }
 
-    h1 {
-        font-size: 1.8em;
-        padding: 8px;
-    }
+  body {
+      margin: 0 10px;
+  }
 
-    h2 {
-        font-size: 1.4em;
-        margin-top: 20px;
-    }
+  h1 {
+      font-size: 1.5em;
+      padding: 5px;
+  }
 
-    p {
-        padding: 0 15px;
-        text-indent: 15px;
-        text-align: left;
-        line-height: 1.5;
-    }
+  h2 {
+      font-size: 1.2em;
+      margin-top: 15px;
+  }
 
-    figure {
-        margin: 20px 0;
-        padding: 10px;
-    }
+  p {
+      padding: 0;
+      text-indent: 0;
+      font-size: 0.9em;
+  }
 
-    #centro-distribuicao {
-        width: 100%;
-        max-width: 550px;
-    }
+  figure {
+      margin: 15px 0;
+      padding: 8px;
+  }
 
-    #familia-pelho {
-        float: none;
-        margin: 20px auto;
-        display: block;
-    }
+  ul {
+      padding: 0;
+      list-style: none;
+      font-weight: 400;
+  }
+
+  footer {
+      margin: 20px 0;
+      padding: 20px 0;
+      text-align: center;
+  }
+
+  footer img {
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 10px;
+      display: block;
+  }
+
+  header img {
+      display: none;
+  }
 }
