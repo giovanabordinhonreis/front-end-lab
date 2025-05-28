@@ -1,0 +1,58 @@
+:root {
+    /*Cores do tema light*/
+    --light-bg: #f5f5f5;
+    --light-text: #021237;
+    --light-card: #fff;
+    --light-shadow: rgba(101, 116, 167, 0.1);
+    /*Cores do tema dark*/
+    --dark-bg: #021237;
+    --dark-text: #f5f5f5;
+    --dark-card: #455a8b;
+    --dark-shadow: rgba(101, 116, 167, 0.1);
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: all 0.3s ease;
+}
+
+.light-theme {
+    background-color: var(--light-bg);
+    color: var(--light-text);
+}
+
+.dark-theme {
+    background-color: var(--dark-bg);
+    color: var(--dark-text);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+button {
+    padding: 0.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.card {
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px var(--light-shadow);
+    margin-top: 2rem;
+    transition: all 0.3s ease;
+}
+
+.light-theme .card {
+    background-color: var(--light-card);
+}
+
+.dark-theme .card {
+    background-color: var(--dark-card);
+    box-shadow:0 2px 10px var(--dark-shadow);
+}
